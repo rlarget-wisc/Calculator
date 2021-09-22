@@ -18,6 +18,6 @@ public class Result extends AppCompatActivity {
         result = (TextView) findViewById(R.id.result);
         Intent intent = getIntent();
         String result_string = intent.getStringExtra("result");
-        result.setText("Result is:\n"+result_string);
+        result.setText(result_string);
     }
 }

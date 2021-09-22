@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     public void clickDivide(View view) {
         int int1 = numberInputFromID(R.id.firstNumber);
         int int2 = numberInputFromID(R.id.secondNumber);
-        showResult(""+(1.0*int1/int2));
+        showResult(""+(int1/int2));
     }
 
     public void clickSubtract(View view) {
